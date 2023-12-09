@@ -109,8 +109,8 @@ display: block;
 }
 
 .current {
-  position: relative;
-  color: #404BBF;
+position: relative;
+color: #404BBF;
 }
 
 .nav-list .nav-link:hover,  
