@@ -71,6 +71,7 @@ margin-right: 76px;
 color: #2E2F42;
 }
 
+
 .menu {
 margin-right: auto;
 align-items: center;
@@ -274,7 +275,7 @@ letter-spacing: 0.02em;
        /* S E C T I O N  T H R E E */
 
 .section-three {
-background: #F4F4FD;
+background-color: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
 }
@@ -366,6 +367,17 @@ margin-bottom: 8px;
 
      /* S E C T I O N  F O U R  */
 
+
+.section-four-title {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
 .list-section-four {
 display: flex;
 padding-left: 0;
@@ -425,18 +437,6 @@ object-fit: cover;
 max-width: 360px;
 }
 
-.section-four-title {
-color: #2E2F42;
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-margin-bottom: 72px;
-
-}
-
 .portfolio-title {
 color: #2E2F42;
 font-size: 20px;
@@ -457,7 +457,7 @@ letter-spacing: 0.02em;
          /* F O O T E R */
 
 .footer {
-background: #2E2F42;
+background-color: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
 }
