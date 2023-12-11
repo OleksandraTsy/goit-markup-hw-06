@@ -588,6 +588,7 @@ border-color: #4D5AE5;
 
 .review-form-own-checkbox {
 display: inline-flex;
+flex-shrink: 0;
 align-items: center;
 justify-content: center;
 width: 16px;
@@ -671,7 +672,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 
 /* ===== MOBILE SECTION 3 ===== */
-.container {
+.container-team {
 width: 296px;
 }
 
@@ -749,12 +750,18 @@ letter-spacing: 0.02em;
 color: #404BBF;
 }
 
+.mobile-info {
+margin-bottom: 48px;
+}
+
+.mobile-contacts {
+margin-top: auto;
+}
+
 .mobile-info-list {
 display: flex;
 flex-direction: column;
 gap: 24px;
-margin-top: 168px;
-margin-bottom: 48px;
 }
 
 .mobile-info-link {
@@ -971,8 +978,16 @@ width: 264px;
 text-align: start;
 }
 
+.text-footer {
+margin-bottom: 0;
+}
+
 .icons-footer-text {
 text-align: start;
+}
+
+.social-media-list-footer {
+margin-bottom: 0;
 }
 
 .footer-subscribe-form {
@@ -1010,6 +1025,8 @@ rgba(46, 47, 66, 0.7)), url(../images/tablet/hero-tablet@2x.jpg);
 @media screen and (min-width: 1158px) {
 .container {
 max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .logo {
@@ -1021,12 +1038,19 @@ flex-direction: row;
 gap: 40px;
 }
 
+.info-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
 /* ===== DESKTOP SECTION 1 ===== */
 
 .section-one {
 background-image: linear-gradient(to bottom,
 rgba(46, 47, 66, 0.7),
 rgba(46, 47, 66, 0.7)), url(../images/desktop/hero-desktop.jpg);
+padding: 188px 0;
 }
 
 .title {
@@ -1154,10 +1178,17 @@ padding: 100px 0;
 .container-footer {
 width: 1158px;
 align-items: baseline;
-padding: 0 15px;
-gap: 0;
 margin: 0 auto;
-justify-content: space-between;
+gap: 0;
+flex-wrap: nowrap;
+}
+
+.logo-plus-text {
+margin-right: 120px;
+}
+
+.social-media-footer {
+margin-right: 80px;
 }
 
 /* ===== DESKTOP MODAL WINDOW ====== */
